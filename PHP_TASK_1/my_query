@@ -1,0 +1,4 @@
+SELECT MAX(b.ratio) AS max_ratio 
+FROM (SELECT author, (SUM(reviews) / COUNT(title)*1.0) AS ratio 
+FROM gallery 
+GROUP BY author) b;
