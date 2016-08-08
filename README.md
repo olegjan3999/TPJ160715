@@ -101,6 +101,7 @@ array ( ‘text’ => ‘text’,
 )
 
 The cells are placed on the page as the figure depicts:
+
 1
 2
 3
